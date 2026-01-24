@@ -9,10 +9,10 @@ sudo apt install curl
 
 # "Automatic" downloads
 mkdir -p ~/bin
-
-## Chrome
 mkdir temp_install
 cd temp_install
+
+## Chrome
 curl "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb" -o "chrome.deb"
 
 ## Discord
@@ -24,7 +24,8 @@ curl -L "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/d
 
 ## Logic 2
 curl -L "https://logic2api.saleae.com/download?os=linux&arch=x64" -o "logic.deb"
-mv logic.deb ~/bin/logic
+chmod +x ./logic.deb
+mv ./logic.deb ~/bin/logic
 
 ## LTSpice (through Wine)
 curl -O "https://ltspice.analog.com/software/LTspice64.msi"
