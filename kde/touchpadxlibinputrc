@@ -1,0 +1,6 @@
+[DLL0B38:01 04F3:320F Touchpad]
+clickMethodAreas=true
+clickMethodClickfinger=false
+naturalScroll=true
+tapAndDrag=false
+tapToClick=true

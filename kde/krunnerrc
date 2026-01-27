@@ -1,0 +1,17 @@
+[PlasmaRunnerManager]
+migrated=true
+
+[Plugins]
+appstreamEnabled=false
+bookmarksEnabled=false
+browserhistoryEnabled=false
+browsertabsEnabled=false
+calculatorEnabled=false
+desktopsessionsEnabled=false
+helprunnerEnabled=false
+krunner_killEnabled=false
+kwinEnabled=false
+org.kde.activities2Enabled=false
+shellEnabled=false
+webshortcutsEnabled=false
+windowsEnabled=false

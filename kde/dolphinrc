@@ -1,0 +1,26 @@
+MenuBar=Disabled
+
+[$Version]
+update_info=dolphin_detailsmodesettings.upd:rename-leading-padding,dolphin_detailsmodesettings.upd:move-content-display
+
+[DetailsMode]
+PreviewSize=22
+
+[General]
+Version=202
+ViewPropsTimestamp=2025,12,29,17,25,34.892
+
+[IconsMode]
+PreviewSize=32
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[KPropertiesDialog]
+1536x960 screen: Height=486
+1536x960 screen: Width=438
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled

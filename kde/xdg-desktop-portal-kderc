@@ -1,0 +1,8 @@
+[FileDialogSize]
+1920x1200 screen: Height=638
+1920x1200 screen: Width=980
+
+[KFileDialog Settings]
+Recent Files[$e]=PXL_20251229_223202480.jpg,file:$HOME/Downloads/labsafetyprocedures.pdf,file:$HOME/Downloads/20260115_164014.jpg,file:$HOME/Downloads/NRC-2025-0009-0003_attachment_1.pdf,file:$HOME/DATA/Banking/Iowa State UBill/2025-26 Spring UBill.pdf,file:$HOME/Pictures/campanile.jpeg,file:$HOME/DATA/Cars/2009 Elantra/License Plates Renewal 2026.pdf
+Recent URLs[$e]=file:$HOME/Downloads/,file:$HOME/Documents/,file:$HOME/DATA/Cars/2009 Elantra/,file:$HOME/Pictures/,file:$HOME/DATA/Banking/Iowa State UBill/,file:$HOME/
+detailViewIconSize=16

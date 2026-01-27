@@ -1,0 +1,37 @@
+[General]
+ConfigVersion=1
+
+[KFileDialog Settings]
+detailViewIconSize=16
+
+[MainWindow]
+1024x640 screen: Window-Maximized=true
+1366x768 screen: Height=696
+1366x768 screen: Width=1366
+1366x768 screen: Window-Maximized=true
+1366x768 screen: XPosition=0
+1366x768 screen: YPosition=28
+1536x864 screen: Height=403
+1536x864 screen: Width=768
+1536x864 screen: Window-Maximized=true
+1536x864 screen: XPosition=768
+1536x864 screen: YPosition=29
+1536x960 screen: Height=896
+1536x960 screen: Width=1536
+1536x960 screen: XPosition=0
+1536x960 screen: YPosition=29
+1920x1200 screen: Height=1128
+1920x1200 screen: Width=960
+1920x1200 screen: XPosition=0
+1920x1200 screen: YPosition=28
+2 screens: Height=800
+2 screens: Width=1536
+LVDS-1=LVDS-1
+MenuBar=Enabled
+RestorePositionForNextInstance=false
+State=AAAA/wAAAAD9AAAAAQAAAAAAAAAAAAAAAPwCAAAAAvsAAAAcAFMAUwBIAE0AYQBuAGEAZwBlAHIARABvAGMAawAAAAAA/////wAAARUBAAAD+wAAACIAUQB1AGkAYwBrAEMAbwBtAG0AYQBuAGQAcwBEAG8AYwBrAAAAAAD/////AAABfAEAAAMAAAVWAAACmgAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAABwAcwBlAHMAcwBpAG8AbgBUAG8AbwBsAGIAYQByAAAAAAD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+eDP=eDP
+
+[UiSettings]
+ColorScheme=

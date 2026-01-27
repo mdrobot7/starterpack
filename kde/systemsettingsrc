@@ -1,0 +1,27 @@
+[KFileDialog Settings]
+Recent Files[$e]=campanile.jpeg,file:$HOME/Pictures/campanile.jpeg
+Recent URLs[$e]=file:$HOME/Pictures/,file:$HOME/
+detailViewIconSize=16
+
+[MainWindow]
+1366x768 screen: Height=652
+1366x768 screen: Width=1020
+1366x768 screen: XPosition=204
+1366x768 screen: YPosition=55
+1536x864 screen: Height=700
+1536x864 screen: Width=1020
+1536x864 screen: XPosition=258
+1536x864 screen: YPosition=129
+1536x960 screen: Height=700
+1536x960 screen: Width=1020
+1536x960 screen: XPosition=258
+1536x960 screen: YPosition=157
+1920x1200 screen: Height=700
+1920x1200 screen: Width=1195
+1920x1200 screen: XPosition=628
+1920x1200 screen: YPosition=282
+LVDS-1=LVDS-1
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAA/wAAAKMAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+eDP=eDP
