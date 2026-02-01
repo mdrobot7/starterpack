@@ -1,3 +1,10 @@
+[DELL097C:00 06CB:CCA8 Touchpad]
+clickMethodAreas=false
+clickMethodClickfinger=true
+naturalScroll=true
+tapAndDrag=false
+tapToClick=true
+
 [DLL0B38:01 04F3:320F Touchpad]
 clickMethodAreas=true
 clickMethodClickfinger=false

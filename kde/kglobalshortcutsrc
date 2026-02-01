@@ -23,7 +23,11 @@ display=Display\tMeta+P,Display\tMeta+P,Switch Display
 
 [khotkeys]
 _k_friendly_name=Custom Shortcuts Service
+{6c6d69e4-a8c6-4cdb-93ab-589797813914}=Alt+Shift+Right,none,shift_end
+{72acb3c3-39c7-484f-8b44-7b16d0faba78}=Alt+Right,none,end
+{b7d6f215-9700-412e-91f8-a20ca9c5ecc1}=Alt+Shift+Left,none,shift_home
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none,none,Search
+{ef810405-8a77-40cc-82e5-56e7c7941536}=Alt+Left,none,home
 
 [kmix]
 _k_friendly_name=Audio Volume

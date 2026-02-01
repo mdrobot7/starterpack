@@ -5,9 +5,15 @@ update_info=ksmserver_update_loginMode_value.upd:ksmserver_update_loginMode_valu
 count=0
 
 [Session: saved at previous logout]
-clientId1=101a415611013d000176756643300000019030005
-count=1
+clientId1=101a415611013d000176957564900000015780005
+clientId2=101a415611013d000176981235600000015780040
+count=2
+discardCommand2[$e]=rm,$HOME/.config/session/systemsettings_101a415611013d000176981235600000015780040_1769814265_972469
 program1=/usr/lib/x86_64-linux-gnu/libexec/DiscoverNotifier
-restartCommand1=/usr/lib/x86_64-linux-gnu/libexec/DiscoverNotifier,-session,101a415611013d000176756643300000019030005_1768979932_375232
+program2=/usr/bin/systemsettings
+restartCommand1=/usr/lib/x86_64-linux-gnu/libexec/DiscoverNotifier,-session,101a415611013d000176957564900000015780005_1769814265_972860
+restartCommand2=/usr/bin/systemsettings,-session,101a415611013d000176981235600000015780040_1769814265_972469
 restartStyleHint1=0
+restartStyleHint2=0
 userId1=michael
+userId2=michael

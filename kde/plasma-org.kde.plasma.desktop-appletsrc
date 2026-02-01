@@ -7,6 +7,7 @@ RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][1]
 ItemGeometries-1366x768=
+ItemGeometries-1920x1080=
 ItemGeometries-1920x1200=
 ItemGeometriesHorizontal=
 activityId=f0b877f7-4af3-47a7-a3b0-76382ea498e3
@@ -123,7 +124,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][8][Applets][10][Configuration]
-PreloadWeight=85
+PreloadWeight=95
 
 [Containments][8][Applets][11]
 immutability=1
@@ -145,7 +146,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][8][Applets][14][Configuration]
-PreloadWeight=75
+PreloadWeight=80
 
 [Containments][8][Applets][14][Configuration][General]
 migrated=true
@@ -176,6 +177,9 @@ plugin=org.kde.plasma.keyboardlayout
 immutability=1
 plugin=org.kde.kscreen
 
+[Containments][8][Applets][19][Configuration]
+PreloadWeight=55
+
 [Containments][8][Applets][22]
 immutability=1
 plugin=org.kde.plasma.nightcolorcontrol
@@ -202,7 +206,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][8][Applets][25][Configuration]
-PreloadWeight=65
+PreloadWeight=70
 
 [Containments][8][Applets][26]
 immutability=1
@@ -224,4 +228,4 @@ knownItems=org.kde.plasma.keyboardindicator,org.kde.plasma.devicenotifier,org.kd
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/pico-vga.uf2,0,f0b877f7-4af3-47a7-a3b0-76382ea498e3,desktop:/fafsa backup code.txt,0,f0b877f7-4af3-47a7-a3b0-76382ea498e3,desktop:/junk.cpp,0,f0b877f7-4af3-47a7-a3b0-76382ea498e3,desktop:/Terraria.desktop,0,f0b877f7-4af3-47a7-a3b0-76382ea498e3,desktop:/desktop.ini,0,f0b877f7-4af3-47a7-a3b0-76382ea498e3,desktop:/Spring 2023 Schedule.pdf,0,f0b877f7-4af3-47a7-a3b0-76382ea498e3,desktop:/Fall 2022 Schedule.pdf,0,f0b877f7-4af3-47a7-a3b0-76382ea498e3,desktop:/money.txt,0,f0b877f7-4af3-47a7-a3b0-76382ea498e3,desktop:/todo.txt,0,f0b877f7-4af3-47a7-a3b0-76382ea498e3,desktop:/LTspice.desktop,0,f0b877f7-4af3-47a7-a3b0-76382ea498e3,desktop:/Opcode.docx,0,f0b877f7-4af3-47a7-a3b0-76382ea498e3,desktop:/canpi.txt,0,f0b877f7-4af3-47a7-a3b0-76382ea498e3,desktop:/MARS_CPRE381.jar,0,f0b877f7-4af3-47a7-a3b0-76382ea498e3,desktop:/app idea.txt,0,f0b877f7-4af3-47a7-a3b0-76382ea498e3,desktop:/don kelling number.txt,0,f0b877f7-4af3-47a7-a3b0-76382ea498e3,desktop:/ml.txt,0,f0b877f7-4af3-47a7-a3b0-76382ea498e3
+screenMapping=desktop:/todo.txt,0,f0b877f7-4af3-47a7-a3b0-76382ea498e3,desktop:/Opcode.docx,0,f0b877f7-4af3-47a7-a3b0-76382ea498e3,desktop:/app idea.txt,0,f0b877f7-4af3-47a7-a3b0-76382ea498e3,desktop:/pico-vga.uf2,0,f0b877f7-4af3-47a7-a3b0-76382ea498e3,desktop:/junk.cpp,0,f0b877f7-4af3-47a7-a3b0-76382ea498e3,desktop:/Spring 2023 Schedule.pdf,0,f0b877f7-4af3-47a7-a3b0-76382ea498e3,desktop:/LTspice.lnk,0,f0b877f7-4af3-47a7-a3b0-76382ea498e3,desktop:/Fall 2022 Schedule.pdf,0,f0b877f7-4af3-47a7-a3b0-76382ea498e3,desktop:/desktop.ini,0,f0b877f7-4af3-47a7-a3b0-76382ea498e3,desktop:/LTspice.desktop,0,f0b877f7-4af3-47a7-a3b0-76382ea498e3,desktop:/MARS_CPRE381.jar,0,f0b877f7-4af3-47a7-a3b0-76382ea498e3,desktop:/Terraria.desktop,0,f0b877f7-4af3-47a7-a3b0-76382ea498e3,desktop:/fafsa backup code.txt,0,f0b877f7-4af3-47a7-a3b0-76382ea498e3,desktop:/money.txt,0,f0b877f7-4af3-47a7-a3b0-76382ea498e3,desktop:/don kelling number.txt,0,f0b877f7-4af3-47a7-a3b0-76382ea498e3,desktop:/ml.txt,0,f0b877f7-4af3-47a7-a3b0-76382ea498e3,desktop:/canpi.txt,0,f0b877f7-4af3-47a7-a3b0-76382ea498e3
