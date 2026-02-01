@@ -5,3 +5,5 @@
 vim.g.snacks_animate = false -- disable animations
 vim.opt.smoothscroll = false -- disable smooth scrolling
 vim.opt.relativenumber = false -- absolute line numbers
+
+vim.g.root_spec = {} -- prevent lazyvim from changing the project root on you (screws up project file search and grep)
