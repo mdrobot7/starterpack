@@ -139,7 +139,8 @@ VeraCrypt() {
 
 mountdrives() {
 	# Force-remount network drives (U, X)
-	sudo mount -a -t cifs
+	sudo mount -t cifs -o credentials=~/.smbcredentials,iocharset=utf8,uid=1000,gid=1000,file_mode=0660,dir_mode=0770 //my.docs.iastate.edu/Users/mdrobot7   /mnt/udrive
+	sudo mount -t cifs -o credentials=~/.smbcredentials,iocharset=utf8,uid=1000,gid=1000,file_mode=0660,dir_mode=0770 //xfiles.ece.iastate.edu/home/mdrobot7 /mnt/xdrive
 }
 
 udrive() {
