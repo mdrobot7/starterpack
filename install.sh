@@ -78,6 +78,8 @@ sudo apt autoremove --purge # Clean up
 
 sudo npm install markdownlint-cli2 --global
 
+echo "Enable fingerprint sensor support. Use SPACE to select, ENTER for OK, ESC to cancel. ENTER to continue."
+read
 sudo pam-auth-update # Fingerprint sensor support
 
 wine LTSpice64.msi
@@ -102,12 +104,13 @@ kwalletmanager5
 
 # Apply symlinks for configuration stuff
 rm -f ~/.bashrc
-ln -s "$INSTALL_DIR"/.bashrc      ~/.bashrc
-ln -s "$INSTALL_DIR"/.inputrc     ~/.inputrc
-ln -s "$INSTALL_DIR"/.minicomrc   ~/.minicomrc
-ln -s "$INSTALL_DIR"/.gitconfig   ~/.gitconfig
-ln -s "$INSTALL_DIR"/nvim         ~/.config/nvim
-cp "$INSTALL_DIR"/.smbcredentials ~/
+ln -sf "$INSTALL_DIR"/.bashrc      ~/.bashrc
+ln -sf "$INSTALL_DIR"/.inputrc     ~/.inputrc
+ln -sf "$INSTALL_DIR"/.minicomrc   ~/.minicomrc
+ln -sf "$INSTALL_DIR"/.gitconfig   ~/.gitconfig
+ln -sf "$INSTALL_DIR"/nvim         ~/.config/nvim
+cp "$INSTALL_DIR"/.smbcredentials  ~/
+cp -sf "$INSTALL_DIR"/kde/*        ~/.config
 
 # Make minicom and other COM port stuff not require sudo
 sudo usermod -a -G dialout $USER
