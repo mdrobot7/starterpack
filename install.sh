@@ -115,6 +115,11 @@ cp -sf "$INSTALL_DIR"/kde/*        ~/.config
 # Make minicom and other COM port stuff not require sudo
 sudo usermod -a -G dialout $USER
 
+# Discord auto-updater service, because discord makes you redownload to update
+sudo cp "$INSTALL_DIR"/discord-updater.service /etc/systemd/system/
+sudo systemctl daemon-reload
+sudo systemctl enable discord-updater
+
 cd ..
 rm -rf temp_install
 

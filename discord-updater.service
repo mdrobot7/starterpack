@@ -1,0 +1,12 @@
+[Unit]
+Description=Discord Updater
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=sh /home/michael/starterpack/install-discord.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
