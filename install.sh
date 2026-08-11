@@ -2,6 +2,7 @@
 # - None
 
 INSTALL_DIR="$(pwd)"
+KICAD_VERSION="10"
 
 sudo apt update
 sudo apt upgrade
@@ -62,7 +63,7 @@ mv veracrypt ~/bin/
 
 
 # Additional APT repositories
-sudo add-apt-repository ppa:kicad/kicad-9.0-releases
+sudo add-apt-repository ppa:kicad/kicad-${KICAD_VERSION}.0-releases
 
 sudo apt update
 sudo apt install \
