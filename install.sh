@@ -120,6 +120,10 @@ sudo cp "$INSTALL_DIR"/discord-updater.service /etc/systemd/system/
 sudo systemctl daemon-reload
 sudo systemctl enable discord-updater
 
+# Finish Miktex install, expose pdflatex command and enable auto-package install
+sudo miktexsetup --shared=yes finish
+sudo initexmf --admin --set-config-value [MPM]AutoInstall=1
+
 cd ..
 rm -rf temp_install
 
