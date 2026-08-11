@@ -155,5 +155,30 @@ mc() {
 	minicom -D "$1" ~/.minicomrc
 }
 
+# Args: can-txqueuelen [iface] [len]
+can_txqueuelen() {
+    ip link set dev $1 txqueuelen $2
+}
+
+# Args: can-bitrate [iface] [bitrate]
+can_bitrate() {
+    if [[ -z "$2" ]]; then
+        ip -det link show | grep bitrate
+    else
+        ip link set $1 down
+        ip link set $1 type can bitrate $2
+        ip link set $1 up
+    fi
+}
+
+#Args: slcan_bitrate [device] [bitrate]
+slcan_bitrate() {
+    declare -A speeds=( ["125000"]="4" ["250000"]="5" ["500000"]="6" ["1000000"]="8" )
+    sudo ip link set can0 down
+    sudo killall slcand
+    sudo slcand -o -s${speeds["$2"]} -t hw -S 3000000 "$1"
+    sudo ip link set can0 up
+}
+
 alias less="less -R" # Colored less
 alias copy="xclip -selection c" # Copy to system clipboard
