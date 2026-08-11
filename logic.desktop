@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Logic
+Exec=/home/michael/bin/logic --no-sandbox
+Terminal=false
+Categories=Utility;
+

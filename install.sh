@@ -26,6 +26,7 @@ curl -L "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/d
 curl -L "https://logic2api.saleae.com/download?os=linux&arch=x64" -o "logic.deb"
 chmod +x ./logic.deb
 mv ./logic.deb ~/bin/logic
+ln -sf "$INSTALL_DIR"/logic.desktop ~/.local/share/applications/logic.desktop
 
 ## LTSpice (through Wine)
 curl -O "https://ltspice.analog.com/software/LTspice64.msi"
