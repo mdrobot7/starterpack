@@ -19,7 +19,7 @@ vim.api.nvim_create_autocmd("BufWritePre", {
     -- Save cursor position
     local save_cursor = vim.fn.getpos(".")
     -- Search and replace trailing whitespaces
-    vim.cmd([[%s/\s\+$//e]])
+    vim.cmd([[silent! %s/\s\+$//e]])
     -- Restore cursor position
     vim.fn.setpos(".", save_cursor)
   end,
@@ -28,13 +28,11 @@ vim.api.nvim_create_autocmd("BufWritePre", {
 
 -- Trim trailing newlines
 vim.api.nvim_create_autocmd("BufWritePre", {
-  group = vim.api.nvim_create_augroup("RemoveTrailingWhitespace", { clear = true }),
   pattern = "*",
   callback = function()
     local save_cursor = vim.fn.getpos(".")
-    vim.cmd([[%s#\($\n\s*\)\+\%$##]])
+    vim.cmd([[silent! %s/\($\n\s*\)\+\%$//e]])
     vim.fn.setpos(".", save_cursor)
   end,
   desc = "Removes trailing whitespace on save",
 })
-
